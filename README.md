@@ -1,4 +1,4 @@
-# pizzamama
+# Site Web : modèle de restaurant type pizzeria
 Exercices d'entrainement au code
 
 Bienvenue sur les sources du projet Restaurant de pizza.
