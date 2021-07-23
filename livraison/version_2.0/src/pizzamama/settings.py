@@ -59,7 +59,7 @@ ROOT_URLCONF = 'pizzamama.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/Users/nrenard/PycharmProject/pythonProject/pizzamama_web/src/pizzamama/templates'],
+        'DIRS': ['/home/pi/version_2.0/src/pizzamama/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
