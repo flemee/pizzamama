@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'sudo touch /home/pi/Desktop/test'
+                sh '/home/pi/Sources/pizzamama'
+                sh 'git pull'
             }
         }
     }
