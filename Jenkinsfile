@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                echo "Coucou numéro 2" 
+                sh 'touch /home/pi/Desktop/test'
             }
         }
     }
