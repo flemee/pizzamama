@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'touch /home/pi/Desktop/test'
+                sh 'sudo touch /home/pi/Desktop/test'
             }
         }
     }
