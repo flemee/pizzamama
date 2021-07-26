@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'cd /home/pi/Sources/pizzamama'
-                sh 'git pull'
+                sh 'sudo cd /home/pi/Sources/pizzamama'
+                sh 'sudo git pull'
                 sh 'sudo service apache2 restart'
             }
         }
