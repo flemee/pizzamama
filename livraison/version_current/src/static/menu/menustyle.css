@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Hot_Restaurant';
+  src: local('Hot_Restaurant'),
+       url('/static/fonts/Hot_Restaurant.ttf');
+ }
+body {
+
+   background: url("images/menu_background.jpg") no-repeat center center fixed, linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  margin: 0px;
+  font-family : Arial;
+}
+
+#small_logo {
+    margin-top : 25px;
+    margin-left : 35px;
+    width: 10%;
+
+}
+h1 {
+    background-color : #DD7835;
+    display: inline;
+    padding: 8px 22px;
+    font-family : Hot_Restaurant
+}
+.menu_title{
+    margin-top : 45px;
+    margin-bottom : 35px;
+
+}
+
+.menu_list {
+    margin-left: 30px;
+
+}
+.menu_list_item {
+    margin: 30px 0px;
+
+}
+.menu_list_title {
+    font-weight: bold;
+    font-size : 20px;
+    display: inline-block;
+    width : 350px;
+}
+.menu_list_prix {
+    color: #DD7835;
+    font-size: 20px;
+    font-weight: underline;
+    margin-left: 8px;
+    display : inline-block;
+    width : 70px;
+    text-align : left;
+}
+.menu_list_ingredients {
+    color: #c8c8c8;
+    font-size: 14px;
+    margin-top: 4px;
+    display: block;
+    width: 320px;
+}
+.vegi {
+    background-color: #DD7835;
+    font-size: 9px;
+    color: black;
+    padding: 3px 8px;
+    margin-top: 4px;
+    display: inline-block;
+    border-radius : 8px;
+    font-weight: bold;
+}
