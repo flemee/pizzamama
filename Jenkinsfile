@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh '/home/pi/Sources/pizzamama'
+                sh 'cd /home/pi/Sources/pizzamama'
                 sh 'git pull'
             }
         }
