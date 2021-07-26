@@ -1,9 +1,9 @@
 pipeline {
   agent {label 'raspberry')
   stages {
-    stage("deploy") {
+    stage('deploy') {
       steps {
-      echo 'Coucou'
+      sh "echo Coucou"
         }
     }
   }
