@@ -1,10 +1,20 @@
 pipeline {
-  agent {label 'raspberry')
-  stages {
-    stage('deploy') {
-      steps {
-      sh "echo Coucou"
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+                echo "Coucou" 
+            }
+        }
+        stage('Test') { 
+            steps {
+                // 
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                // 
+            }
         }
     }
-  }
 }
