@@ -1,17 +1,12 @@
 # Site Web : modèle de restaurant type pizzeria
-Exercices d'entrainement au code
 
-Bienvenue sur les sources du projet Restaurant de pizza.
+Ce projet est un modèle d'exemple de site pour pizzeria et également un exercice d'entrainement au code python au framework Django.
 
-Instructions pour la livraison.
+Bienvenue sur les sources de ce projet.
 
-Création d'un dossier Version_x.x
 
-3 parties à déposer pour la release d'une nouvelle version :
-- Les fichiers statics de chaque app du projet dans le dossier "static" (exemple : menu/static/menu --> à mettre dans static/menu)
-- Chaque dossier d'app complet
-- L'environnement virtuel - attention : appelé "venv" en dev - renommé "djenv" en production
 
+Releases-----
 
 V2.0 : code : python /django. 
   nom du projet remanié : Papa Fred
