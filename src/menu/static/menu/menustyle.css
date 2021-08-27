@@ -73,3 +73,59 @@ h1 {
     border-radius : 8px;
     font-weight: bold;
 }
+
+ul.nav  {
+    border: 0;
+}
+
+ul.nav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover:not(.active) {
+    background-color: #ddd;
+}
+.active {
+  background-color: #04AA6D;
+}
+ul.nav li a.active {
+    color: white;
+    background-color: #008CBA;
+}
+ul.navright li {
+float:right;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #DD7835;
+}
+
+ul.horizontal li {
+    float: left;
+
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+ul.horizontal li a:hover:not(.active) {
+    background-color: #000;
+}
+
+ul.horizontal li a.active {
+    background-color:#04AA6D;
+}

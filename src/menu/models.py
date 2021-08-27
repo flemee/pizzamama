@@ -9,6 +9,13 @@ class Pizza(models.Model):
     def __str__(self):
         return self.nom
 
+class PizzaPersonnalisable(Pizza):
+
+    def __init__(self):
+        super().__init__()
+pass
+
+
 
 class Pate(models.Model):
     nom = models.CharField(max_length=300)
