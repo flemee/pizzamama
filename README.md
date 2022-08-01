@@ -8,17 +8,17 @@ Bienvenue sur les sources de ce projet.
 
 ## Releases-----
 
--**V2.0** : code : python /django. 
-  > nom du projet remanié : Papa Fred
-  > apps : menu (contient pizzas/salades/pâtes/boissons)
-         pizzamama (structure projet)
+- **V2.0** : code : python /django. 
+  > nom du projet remanié : Papa Fred.
+  > apps : menu (contient pizzas/salades/pâtes/boissons).
+         pizzamama (structure projet).
          main : supprimé => pages statics générés.
-         static : source css, js et img du projet
+         static : source css, js et img du projet.
   
   
--**V1.0** - code : python / django. 
-  > nom du projet : pizzamama
-  > apps : menu (pizzas)
-         main ( page d'entrée)
-         pizzamama (structure projet)
+- **V1.0** - code : python / django. 
+  > nom du projet : pizzamama.
+  > apps : menu (pizzas).
+         main ( page d'entrée).
+         pizzamama (structure projet).
 
